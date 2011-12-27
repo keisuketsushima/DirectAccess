@@ -1,0 +1,15 @@
+Direct Access
+======================
+This is a simple benchmark test for direct access in Fortran.
+
+
+How to use
+------
++ The most simple style is below
+  ./do.sh
++ To specify length of data
+  ./do.sh 1234567
+
+Note
+------
+The size of data will become too large, around 2GB or below, if you specify the size over 10000000 (ten million).
